@@ -38,7 +38,7 @@ export const plusMinus = (inputArray: number[]): string => {
       [0, 0, 0]
     )
     .reduce(
-      (acc, value) => (acc += `${(value / inputArray.length).toFixed(6)}\n`),
+      (acc, value) => acc + `${(value / inputArray.length).toFixed(6)}\n`,
       ""
     );
 };
