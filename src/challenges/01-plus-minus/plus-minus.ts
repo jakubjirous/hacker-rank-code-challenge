@@ -1,3 +1,6 @@
+export type Input = number[];
+export type Output = string;
+
 /**
  * Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero.
  * Print the decimal value of each fraction on a new line with 6 places after the decimal.
@@ -23,9 +26,6 @@
  *
  * @param inputArray
  */
-export type Input = number[];
-export type Output = string;
-
 export const plusMinus = (inputArray: Input): Output => {
   return inputArray
     .reduce(
