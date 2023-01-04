@@ -24,3 +24,4 @@ Developers compete by writing programs according to provided specifications.
 
 1. [Plus Minus](/src/challenges/01-plus-minus/)
 2. [Mini-Max Sum](/src/challenges/02-mini-max-sum/)
+3. [Time Conversion](/src/challenges/03-time-conversion/)
