@@ -1,12 +1,7 @@
-import { plusMinus } from "../plus-minus";
+import { Input, Output, plusMinus } from "../plus-minus";
 
-type FirstArg = number[];
-type ExpectedResult = string;
-type Cases = [FirstArg, ExpectedResult][];
+type Cases = [Input, Output][];
 
-/**
- *
- */
 describe("Plus Minus", () => {
   const cases: Cases = [
     [[0, 0, -1, 1, 1], "0.400000\n0.200000\n0.400000"],
@@ -57,7 +52,7 @@ describe("Plus Minus", () => {
   ];
 
   test.each(cases)(
-    "for array of integers %p output should be %p",
+    "for given array of integers %p output should be %p",
     (firstArg, expectedResult) => {
       const result = plusMinus(firstArg);
       expect(result.trim()).toEqual(expectedResult.trim());

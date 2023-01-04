@@ -13,7 +13,7 @@
  * - 3) proportion of zeros
  *
  * Example:
- * - arr = [1, 1, 0, -1, -1]
+ * - inputArray = [1, 1, 0, -1, -1]
  * - There are n = 5 elements, two positive, two negative and one zero.
  * - Their ratios are 2/5 = 0.400000, 2/5 = 0.400000 and 1/5 = 0.200000.
  * - Results are printed as:
@@ -23,7 +23,10 @@
  *
  * @param inputArray
  */
-export const plusMinus = (inputArray: number[]): string => {
+export type Input = number[];
+export type Output = string;
+
+export const plusMinus = (inputArray: Input): Output => {
   return inputArray
     .reduce(
       (acc, value) => {
