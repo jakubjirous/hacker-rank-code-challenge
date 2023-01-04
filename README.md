@@ -22,6 +22,6 @@ Developers compete by writing programs according to provided specifications.
 
 ### Preparation Kit
 
-1. [Plus Minus](/src/challenges/01-plus-minus/)
-2. [Mini-Max Sum](/src/challenges/02-mini-max-sum/)
-3. [Time Conversion](/src/challenges/03-time-conversion/)
+1. [Plus Minus](/src/challenges/01-plus-minus/INDEX.md)
+2. [Mini-Max Sum](/src/challenges/02-mini-max-sum/INDEX.md)
+3. [Time Conversion](/src/challenges/03-time-conversion/INDEX.md)

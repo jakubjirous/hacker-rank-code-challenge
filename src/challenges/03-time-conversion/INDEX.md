@@ -17,7 +17,7 @@ Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
 
 ### Function Description:
 
-- Complete the `timeConversion` function in the editor below. It should return a new string representing the input time in 24 hour format.
+- Complete the `timeConversion` function in the editor below. It should return a new string representing the input time in 24-hour format.
 
 - `timeConversion` has the following parameter(`s`):
   - string `s`: a time in 12-hour format
@@ -47,3 +47,10 @@ Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
 ```
 19:05:45
 ```
+
+---
+
+### Solution:
+
+- [Code](/src/challenges/03-time-conversion/time-conversion.ts)
+- [Tests](/src/challenges/03-time-conversion/test/time-conversion.test.ts)
