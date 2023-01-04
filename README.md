@@ -26,3 +26,4 @@ Developers compete by writing programs according to provided specifications.
 2. [Mini-Max Sum](/src/challenges/02-mini-max-sum/INDEX.md)
 3. [Time Conversion](/src/challenges/03-time-conversion/INDEX.md)
 4. [Lonely Integer](/src/challenges/04-lonely-integer/INDEX.md)
+5. [Diagonal Difference](/src/challenges/05-diagonal-difference/INDEX.md)

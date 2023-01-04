@@ -17,7 +17,7 @@ describe("Time Conversion", () => {
   ];
 
   test.each(cases)(
-    "for given time %p output should be %p",
+    "for given time %s output should be %s",
     (firstArg, expectedResult) => {
       const result = timeConversion(firstArg);
       expect(result).toEqual(expectedResult);

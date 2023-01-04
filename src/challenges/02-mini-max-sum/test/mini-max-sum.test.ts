@@ -47,7 +47,7 @@ describe("Mini-Max Sum", () => {
   ];
 
   test.each(cases)(
-    "for given array of integers %p output should be %p",
+    "for given array of integers %j output should be %j",
     (firstArg, expectedResult) => {
       const result = miniMaxSum(firstArg);
       expect(result).toEqual(expectedResult);
